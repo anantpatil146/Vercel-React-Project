@@ -1,12 +1,19 @@
-#container{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f0f0; /* optional for visibility */
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+    <div id="container">
+                 <p>Hello MY name is Anant</p> 
+    </div>
+      
+    </>
+  )
 }
 
-p {
-  font-size: large;
-  font-family: sans-serif;
-}
+export default App
